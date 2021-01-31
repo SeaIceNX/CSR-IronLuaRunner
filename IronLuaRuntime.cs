@@ -20,10 +20,16 @@ namespace CSharpLuaRunner
         public class MCLUAAPI
         {
             private MCCSAPI api { get; set; }
+            private Dictionary<string, int> TPFuncPtr { get; set; }
 
             public MCLUAAPI(MCCSAPI api)
             {
                 this.api = api;
+                TPFuncPtr = new Dictionary<string, int>
+                {
+                    { "1.16.200.2", 0x00C82C60 },
+                    { "1.16.201.2", 0x00C82C60 }
+                };
             }
             #region MCLUAAPI
             public string MCCSAPIVERSION()
@@ -64,6 +70,26 @@ namespace CSharpLuaRunner
             public string getOnLinePlayeys()
             {
                 return api.getOnLinePlayers();
+            }
+            public void teleport(string uuid, float x, float y, float z, int did)
+            {
+                IntPtr player = IntPtr.Zero;
+                int _ptr = 0;
+                if (TPFuncPtr.TryGetValue(api.VERSION, out _ptr) &&
+                    ptr.TryGetValue(uuid, out player))
+                {
+                    var temp = new Vec3
+                    {
+                        x = x,
+                        y = y,
+                        z = z
+                    };
+                    Hook.tp(api, _ptr, player, temp, did);
+                }
+                else
+                {
+                    api.teleport(uuid, x, y, z, did);
+                }
             }
 
             public void reNameByUuid(string uuid, string name)
