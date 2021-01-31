@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\amsq\\Desktop\\BDSCSR-CSharpLuaRunner-main\\BDSCSR-CSharpLuaRunner-main\\CSharpLuaRunner.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\amsq\\Desktop\\BDSCSR-CSharpLuaRunner-main\\BDSCSR-CSharpLuaRunner-main\\CSharpLuaRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amsq\\Desktop\\BDSCSR-CSharpLuaRunner-main\\BDSCSR-CSharpLuaRunner-main\\CSharpLuaRunner.csproj",
+        "projectName": "CSharpLuaRunner",
+        "projectPath": "C:\\Users\\amsq\\Desktop\\BDSCSR-CSharpLuaRunner-main\\BDSCSR-CSharpLuaRunner-main\\CSharpLuaRunner.csproj",
+        "packagesPath": "C:\\Users\\amsq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amsq\\Desktop\\BDSCSR-CSharpLuaRunner-main\\BDSCSR-CSharpLuaRunner-main\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\amsq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Costura.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "KeraLua": {
+              "target": "Package",
+              "version": "[1.2.10, )"
+            },
+            "NLua": {
+              "target": "Package",
+              "version": "[1.5.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

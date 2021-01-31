@@ -1,0 +1,14 @@
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\obj\Debug\CSharpLuaRunner.csprojAssemblyReference.cache
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\obj\Debug\CSharpLuaRunner.csproj.CoreCompileInputs.cache
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\lua54.dll
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\liblua54.dylib
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\liblua54.so
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\x86\lua54.dll
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\x64\lua54.dll
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\x64\liblua54.so
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\CSharpLuaRunner.csr.dll.config
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\CSharpLuaRunner.csr.dll
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\bin\Debug\CSharpLuaRunner.csr.pdb
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\obj\Debug\CSharpLuaRunner.csproj.Fody.CopyLocal.cache
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\obj\Debug\CSharpLuaRunner.csr.dll
+C:\Users\amsq\Desktop\BDSCSR-CSharpLuaRunner-main\BDSCSR-CSharpLuaRunner-main\obj\Debug\CSharpLuaRunner.csr.pdb
