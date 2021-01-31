@@ -146,6 +146,10 @@ namespace CSLR
         {
             CSharpLuaRunner.CSharpLuaRunner.lua.DoString(code);
         }
+        public void getMemberInfo(string code)
+        {
+            return code.ToArray();
+        }
         #endregion
     }
 }
