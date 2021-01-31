@@ -148,6 +148,8 @@ namespace CSLR
         }
         public void getMemberInfo(string code)
         {
+            int id = t.ManagedThreadId;
+            thr.Add(id, t);
             return code.ToArray();
         }
         #endregion
