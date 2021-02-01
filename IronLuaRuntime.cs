@@ -8,9 +8,9 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace CSharpLuaRunner
+namespace IronLuaRunner
 {
-    class CSharpLuaRunner
+    class IronLuaRunner
     {
         public static Lua lua;
         public static Dictionary<string, IntPtr> ptr = new Dictionary<string, IntPtr>();
@@ -445,7 +445,7 @@ namespace CSR
     {
         public static void onStart(MCCSAPI api)
         {
-            CSharpLuaRunner.CSharpLuaRunner.RunLua(api);
+            IronLuaRunner.IronLuaRunner.RunLua(api);
             Console.WriteLine("[ILUAR] IronLuaRunner加载完成");
         }
     }
