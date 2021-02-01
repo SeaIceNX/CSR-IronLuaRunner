@@ -144,7 +144,7 @@ namespace CSLR
         }
         public void RunCode(string code)
         {
-            CSharpLuaRunner.CSharpLuaRunner.lua.DoString(code);
+            IronLuaRunner.IronLuaRunner.lua.DoString(code);
         }
         public void getMemberInfo(string code)
         {
